@@ -43,7 +43,7 @@ final DirectCaller directCaller = DirectCaller();
 directCaller.makePhoneCall('1234567890', simSlot: 2);
 ```
 
-**NOTE** ~~The phone number must be a string with 10 digits.~~ Emergency numbers are not nessearly 10 digit. So I removed the feature. The `simSlot` parameter is optional and defaults to 1 (the first SIM card slot). If the device does not support dual SIM, the library will use the first SIM card slot.
+**NOTE** ~~The phone number must be a string with 10 digits.~~ Emergency numbers are not necessarily 10 digit. So I removed the feature. The `simSlot` parameter is optional and defaults to 1 (the first SIM card slot). If the device does not support dual SIM, the library will use the first SIM card slot.
 
 ## Platform Support
 
