@@ -26,7 +26,7 @@ Add direct_caller_sim_choice as a dependency in your pubspec.yaml file:
 
 ```yaml
 dependencies:
-  direct_caller_sim_choice: ^1.0.1
+  direct_caller_sim_choice: ^1.0.2
 ```
 ## Usage
 
