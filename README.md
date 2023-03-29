@@ -26,7 +26,7 @@ Add direct_caller_sim_choice as a dependency in your pubspec.yaml file:
 
 ```yaml
 dependencies:
-  direct_caller_sim_choice: ^1.0.3
+  direct_caller_sim_choice: ^1.0.4
 ```
 ## Usage
 
@@ -43,7 +43,7 @@ final DirectCaller directCaller = DirectCaller();
 directCaller.makePhoneCall('1234567890', simSlot: 2);
 ```
 
-**NOTE** The phone number must be a string with 10 digits. The `simSlot` parameter is optional and defaults to 1 (the first SIM card slot). If the device does not support dual SIM, the library will use the first SIM card slot.
+**NOTE** ~~The phone number must be a string with 10 digits.~~ Emergency numbers are not nessearly 10 digit. So I removed the feature. The `simSlot` parameter is optional and defaults to 1 (the first SIM card slot). If the device does not support dual SIM, the library will use the first SIM card slot.
 
 ## Platform Support
 
