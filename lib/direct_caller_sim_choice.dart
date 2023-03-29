@@ -8,9 +8,9 @@ class DirectCaller {
   /// Makes a phone call using the default dialer app.
   bool makePhoneCall(String phoneNumber, {int simSlot = 1}) {
     /// Check if the phone number is of 10 digits.
-    if (phoneNumber.length != 10) {
-      throw Exception('Phone number must be of 10 digits');
-    }
+    // if (phoneNumber.length != 10) {
+    //   throw Exception('Phone number must be of 10 digits');
+    // }
     if (simSlot != 1 && simSlot != 2) {
       throw Exception('Sim slot must be 1 or 2');
     }
