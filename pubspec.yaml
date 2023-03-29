@@ -1,6 +1,6 @@
 name: direct_caller_sim_choice
 description: direct_caller_sim_choice is a Flutter library that allows you to make phone calls directly from your app, with an option to select the SIM card for devices that have dual SIM support.
-version: 1.0.0
+version: 1.0.1
 homepage: https://github.com/kuromadara/direct_caller_sim_choice
 
 environment:
