@@ -17,3 +17,7 @@
 ## 1.0.4
 
 * docs fixed.
+
+## 1.0.5
+
+* android_intent_plus 3.1.6 -> 4.0.1
